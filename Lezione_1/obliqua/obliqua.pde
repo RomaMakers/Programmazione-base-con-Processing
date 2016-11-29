@@ -8,7 +8,7 @@ righe
 
 void setup()
 {
-  size(200, 400); // Area 200 pixel per 200 pixel
+  size(200, 400); // Area 200 pixel per 400 pixel
 }
 
 void draw()
