@@ -1,0 +1,4 @@
+riga 1
+un esempio
+diverse righe
+di testo
