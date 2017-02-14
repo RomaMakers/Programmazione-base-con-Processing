@@ -1,11 +1,11 @@
-import processing.video.*;
-Movie myMovie;
+import gohai.glvideo.*;
+GLMovie myMovie;
 
 void setup() {
-  //size(401, 225);
-  fullScreen();
+  size(401, 225);
+  //fullScreen();
   frameRate(25);
-  myMovie = new Movie(this, "clip1.mpg");
+  myMovie = new GLMovie(this, "clip1.mpg");
   myMovie.loop();
 }
 
@@ -13,7 +13,7 @@ void draw() {
   image(myMovie, 0, 0, width, height);
 }
 
-void movieEvent(Movie m) {
+void movieEvent(GLMovie m) {
   m.read();
 }
 
